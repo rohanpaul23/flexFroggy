@@ -1,0 +1,42 @@
+#LEVEL 21
+
+grid-template-columns : repeat(8,12.5%);
+
+------------------------------------------------------------------------------------
+#LEVEL 22
+
+grid-template-columns: 100px 3em 40%;
+
+------------------------------------------------------------------------------------
+#LEVEL 23
+
+grid-template-columns : 1fr 5fr;
+
+------------------------------------------------------------------------------------
+#LEVEL 24
+
+grid-template-columns : 50px 1fr 1fr 1fr 50px;
+
+
+------------------------------------------------------------------------------------
+#LEVEL 25
+
+grid-template-columns :  75px 3fr 2fr;
+
+------------------------------------------------------------------------------------
+#LEVEL 26
+
+4 x 12.5px = 50px (takes care of the 50px gap at the top and uses 4 rows which are empty)
+1fr (fills the rest of the space below and uses 1 row) so that will be total 5 rows.
+
+grid-template-rows : repeat(4,12.5px) 1fr;
+
+------------------------------------------------------------------------------------
+#LEVEL 27
+
+grid-template : 60% / 200px;
+
+------------------------------------------------------------------------------------
+#LEVEL 28
+
+grid-template : 1fr 50px / 20% 80%

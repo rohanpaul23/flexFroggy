@@ -1,0 +1,65 @@
+#LEVEL 11
+
+flex-direction : column;
+justify-content : flex-end;
+
+------------------------------------------------------------------------------------
+#LEVEL 12
+
+flex-direction : column-reverse;
+justify-content: space-between
+
+------------------------------------------------------------------------------------
+#LEVEL 13
+
+flex-direction: row-reverse;
+justify-content: center;
+align-items: flex-end;
+
+
+------------------------------------------------------------------------------------
+#LEVEL 14
+
+order: 3;
+
+------------------------------------------------------------------------------------
+#LEVEL 15
+
+Flex items have a default order value of 0, 
+therefore items with an integer value greater than 0 will be displayed after any items that have not been given an explicit order value.
+
+Negative values are also supported with order. 
+If you want to make one item display first and leave the order of all other items unchanged, you can give that item order of -1. 
+As this is lower than 0 the item will always be displayed first.
+
+order : -1;
+
+------------------------------------------------------------------------------------
+#LEVEL 16
+
+Align self is used to assign to a specific item
+
+align-self : end;
+
+------------------------------------------------------------------------------------
+#LEVEL 17
+
+order:3;
+align-self:end;
+
+------------------------------------------------------------------------------------
+#LEVEL 18
+
+flex-flow : wrap
+
+------------------------------------------------------------------------------------
+#LEVEL 19
+
+flex-flow : wrap;
+flex-direction : column;
+
+------------------------------------------------------------------------------------
+#LEVEL 20
+
+flex-flow : column wrap;
+
